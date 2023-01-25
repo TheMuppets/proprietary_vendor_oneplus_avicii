@@ -1,0 +1,95 @@
+{
+    "default": {
+        "feature_cameramdm": true,
+        "feature_torchpkg": true,
+        "skip_rus_check_list": [
+            "android.camera.cts",
+            "com.android.cts.verifier",
+            "android",
+            "com.oplus.engineercamera",
+            "vendor.client.pid",
+            "com.oplus.camera"
+        ],
+        "privileged_app_list": [
+            "com.google.android.GoogleCamera",
+            "com.ss.android.ugc.aweme",
+            "com.ss.android.ugc.trill",
+            "com.zhiliaoapp.musically",
+            "com.shopmoment.momentprocamera",
+            "com.blink.academy.protake",
+            "org.codeaurora.snapcam",
+            "troop.com.freedcam",
+            "net.sourceforge.opencamera",
+            "com.caddish_hedgehog.hedgecam2",
+            "com.filmic.filmicpro",
+            "com.filmic.filmicpro.test",
+            "com.filmic.firstlight"
+        ],
+        "limitSizeListForCts": [
+        4000, 3000,
+        3840, 2160,
+        3000, 3000,
+        3264, 2448,
+        2880, 2160,
+        2592, 1944,
+        3280, 2464,
+        2328, 1748,
+        2160, 1080,
+        1920, 1080,
+        1600, 1200,
+        1440, 1080,
+        1280, 960,
+        1280, 720,
+        1080, 1080,
+        640,  640,
+        720,  480,
+        640,  480,
+        352,  288,
+        320,  240,
+        176,  144,
+        0,0
+        ],
+        "limitThumbnailSizeListForCts": [
+        0,   0,
+        176, 144,
+        213, 160,
+        240, 144,
+        256, 144,
+        240, 160,
+        256, 154,
+        246, 184,
+        352, 160,
+        240, 240,
+        400, 180,
+        320, 240
+        ]
+    },
+    "org.codeaurora.ims": {
+        "isFreeDomEvictionPackge": true
+    },
+    "android": {
+        "isFreeDomEvictionPackge": true
+    },
+    "vendor.client.pid": {
+        "isFreeDomEvictionPackge": true
+    },
+    "autotest.oppo.com.simulatedlivebroadcast": {
+        "previewSizeForAPI1MAXWidth": 2592,
+        "previewSizeForAPI1MAXHeight": 1168,
+        "preview_size_limit": true
+   },
+   "com.zing.zalo": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+   },
+   "com.commsource.beautyplus": {
+        "previewSizeForAPI1Width": 1440,
+        "previewSizeForAPI1Height": 1080
+   },
+   "com.instagram.android": {
+        "limitAPI2Width": 1584,
+        "limitAPI2Height": 720,
+        "api2_limit_size": true,
+        "limitAPI2Picture": false
+   }
+}
