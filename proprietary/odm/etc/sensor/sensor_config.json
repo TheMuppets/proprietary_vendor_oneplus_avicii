@@ -1,5 +1,5 @@
 {
-	"20801_20803":{
+	"20804":{
 		"platform_config":{
 			"sensor_arch":"qcom_sensor_see"
 		},
@@ -85,6 +85,22 @@
 				"type":33171024,
 				"support":"true",
 				"module":"module_ignore"
+			},
+			"qti.sensor.sar":{
+				"type":33171025,
+				"support":"true",
+				"module":"sx932x",
+				"sx932x":{
+					"mode":"single_channel"
+				}
+			},
+			"qti.sensor.sars":{
+				"type":33171029,
+				"support":"true",
+				"module":"sx932x_down",
+				"sx932x_down":{
+					"mode":"single_channel"
+				}
 			}
 		}
 	}
