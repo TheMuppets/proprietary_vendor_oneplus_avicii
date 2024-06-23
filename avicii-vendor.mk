@@ -1410,3 +1410,7 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_oplusSensor.xml \
     manifest_oplus_fingerprint.xml
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
