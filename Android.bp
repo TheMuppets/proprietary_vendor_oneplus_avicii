@@ -26,8 +26,17 @@ cc_prebuilt_library_shared {
                 "libdl",
             ],
         },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libc++_shared.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libdl",
+            ],
+        },
     },
-    compile_multilib: "32",
+    compile_multilib: "both",
     prefer: true,
     soc_specific: true,
 }
@@ -2825,6 +2834,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libarcsoft_super_night_raw.so",
             ],
             shared_libs: [
+                "libc++_shared",
                 "libmpbase",
                 "libOpenCL",
                 "libarcsoft_hdrplus_hvx_stub",
@@ -2839,7 +2849,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
