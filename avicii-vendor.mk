@@ -380,6 +380,7 @@ PRODUCT_PACKAGES += \
     libtriplecam_image_optical_zoom \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
+    sensors.ssc \
     vendor.oplus.hardware.cameraMDM@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
