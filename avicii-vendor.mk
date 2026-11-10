@@ -202,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avicii/proprietary/odm/firmware/ringtone_Jazz_life_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Jazz_life_RTP.bin \
     vendor/oneplus/avicii/proprietary/odm/firmware/ringtone_OnePlus_tune_rhythm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_OnePlus_tune_rhythm_RTP.bin \
     vendor/oneplus/avicii/proprietary/odm/firmware/ringtone_Sun_glittering_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Sun_glittering_RTP.bin \
+    vendor/oneplus/avicii/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/avicii/proprietary/odm/firmware/tp/20801/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20801/FW_GT9886_SAMSUNG.img \
     vendor/oneplus/avicii/proprietary/odm/firmware/tp/20801/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20801/FW_GT9886_SAMSUNG_FAE.img \
     vendor/oneplus/avicii/proprietary/odm/firmware/tp/20801/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20801/LIMIT_GT9886_SAMSUNG.img \
